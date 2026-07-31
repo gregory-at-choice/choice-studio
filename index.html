@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choice · Studio de Modélisation Numérique</title>
+    <meta
+      name="description"
+      content="Plateforme de simulation technico-économique-financière : démontrer qu'un projet transformé surpasse le projet d'origine."
+    />
+    <!-- PWA: installable, offline-capable, synced to the user's Google Drive. -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#0b8375" />
+    <link rel="icon" type="image/svg+xml" href="icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Choice Studio" />
+    <script type="module" crossorigin src="./assets/index-DVDupsKm.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-u7UYcao-.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Register the service worker (network-first cache) for offline use.
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          var base = document.baseURI;
+          navigator.serviceWorker.register(new URL("sw.js", base)).catch(function () {});
+        });
+      }
+    </script>
+  </body>
+</html>

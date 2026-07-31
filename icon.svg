@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Choice">
+  <defs>
+    <linearGradient id="choiceC" x1="40" y1="48" x2="104" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5FC6A2"/>
+      <stop offset="0.52" stop-color="#8FCF6A"/>
+      <stop offset="1" stop-color="#F3D23E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="48" r="12.5" fill="#1FB6CE"/>
+  <path d="M88.9 26.7 A26 26 0 1 0 88.9 69.3" fill="none" stroke="url(#choiceC)" stroke-width="17" stroke-linecap="round"/>
+</svg>
